@@ -2304,7 +2304,6 @@ vendor/lib64/vendor.samsung.hardware.gnss@2.0.so 0 0 0644
 vendor/lib64/vendor.samsung.hardware.health@2.0.so 0 0 0644
 vendor/lib64/vendor.samsung.hardware.hqm@1.0.so 0 0 0644
 vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so 0 0 0644
-vendor/lib64/vendor.samsung.hardware.light-V1-ndk_platform.so 0 0 0644
 vendor/lib64/vendor.samsung.hardware.light-V2-ndk.so 0 0 0644
 vendor/lib64/vendor.samsung.hardware.media.converter-V1-ndk_platform.so 0 0 0644
 vendor/lib64/vendor.samsung.hardware.miscpower@2.0.so 0 0 0644
