@@ -1826,6 +1826,7 @@ vendor/lib64/libcodec2_soft_common.so 0 0 0644
 vendor/lib64/libcodec2_soft_eac3dec.so 0 0 0644
 vendor/lib64/libcodec2_vndk.so 0 0 0644
 vendor/lib64/libcodecsolutionhelper_vendor.so 0 0 0644
+vendor/lib64/libcolor-default.so 0 2000 0644
 vendor/lib64/libcom.qti.chinodeutils.so 0 0 0644
 vendor/lib64/libconfigdb.so 0 0 0644
 vendor/lib64/libcpion.so 0 0 0644
