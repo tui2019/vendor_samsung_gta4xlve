@@ -59,7 +59,7 @@
     </Settings>
     <Decoders>
         <!-- C2 decoders -->
-        <MediaCodec name="c2.qti.avc.decoder" type="video/avc">
+        <MediaCodec name="c2.qti.avc.decoder" type="video/avc" rank="1">
             <Alias name="OMX.qcom.video.decoder.avc" />
             <Limit name="size" min="96x96" max="4096x2160" />
             <Limit name="alignment" value="2x2" />
@@ -178,7 +178,7 @@
 
     <Encoders>
         <!-- C2 encoders -->
-        <MediaCodec name="c2.qti.avc.encoder" type="video/avc">
+        <MediaCodec name="c2.qti.avc.encoder" type="video/avc" rank="1">
             <Alias name="OMX.qcom.video.encoder.avc" />
             <Limit name="size" min="96x96" max="4096x2160" />
             <Limit name="alignment" value="2x2" />
