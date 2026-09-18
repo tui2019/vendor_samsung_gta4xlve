@@ -137,6 +137,7 @@ vendor/bin/hw/vendor.qti.hardware.iop@2.0-service 0 2000 0755
 vendor/bin/hw/vendor.qti.hardware.perf@2.2-service 0 2000 0755
 vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service 0 2000 0755
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti 0 2000 0755
+vendor/bin/hw/vendor.qti.media.c2@1.0-service 0 2000 0755
 vendor/bin/hw/vendor.samsung.hardware.authfw@1.0-service 0 2000 0755
 vendor/bin/hw/vendor.samsung.hardware.biometrics.face@3.0-service 0 2000 0755
 vendor/bin/hw/vendor.samsung.hardware.camera.provider@4.0-service 0 2000 0755
@@ -508,6 +509,7 @@ vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc 0 0 0644
 vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc 0 0 0644
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc 0 0 0644
 vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc 0 0 0644
+vendor/etc/init/vendor.qti.media.c2@1.0-service.rc 0 0 0644
 vendor/etc/init/vendor.qti.rmt_storage.rc 0 0 0644
 vendor/etc/init/vendor.qti.tftp.rc 0 0 0644
 vendor/etc/init/vendor.ril.wifionly.qcom.rc 0 0 0644
@@ -544,6 +546,7 @@ vendor/etc/lm/AppClassifierFeature.xml 0 0 0644
 vendor/etc/lm/GameOptimizationFeature.xml 0 0 0644
 vendor/etc/lowi.conf 0 0 0644
 vendor/etc/media_codecs.xml 0 0 0644
+vendor/etc/media_codecs_c2.xml 0 0 0644
 vendor/etc/media_codecs_c2_sec.xml 0 0 0644
 vendor/etc/media_codecs_c2_sec_ape.xml 0 0 0644
 vendor/etc/media_codecs_c2_sec_qcp.xml 0 0 0644
@@ -556,6 +559,7 @@ vendor/etc/media_codecs_google_telephony.xml 0 0 0644
 vendor/etc/media_codecs_google_video.xml 0 0 0644
 vendor/etc/media_codecs_google_video_le.xml 0 0 0644
 vendor/etc/media_codecs_performance.xml 0 0 0644
+vendor/etc/media_codecs_performance_c2.xml 0 0 0644
 vendor/etc/media_codecs_vendor.xml 0 0 0644
 vendor/etc/media_codecs_vendor_audio.xml 0 0 0644
 vendor/etc/media_profiles.xml 0 0 0644
@@ -654,6 +658,8 @@ vendor/etc/sap.conf 0 0 0644
 vendor/etc/sec_audio_volume_curve.xml 0 0 0644
 vendor/etc/sec_config 0 0 0644
 vendor/etc/seccomp_policy 0 2000 0755
+vendor/etc/seccomp_policy/codec2.vendor.base.policy 0 0 0644
+vendor/etc/seccomp_policy/codec2.vendor.ext.policy 0 0 0644
 vendor/etc/seccomp_policy/mediacodec.policy 0 0 0644
 vendor/etc/seccomp_policy/mediaextractor_sec.policy 0 0 0644
 vendor/etc/seccomp_policy/samsung.software.media.c2-base-policy 0 0 0644
@@ -1237,6 +1243,7 @@ vendor/lib/libq3dtools_adreno.so 0 0 0644
 vendor/lib/libqcbor.so 0 0 0644
 vendor/lib/libqcc_file_agent.so 0 0 0644
 vendor/lib/libqcci_legacy.so 0 0 0644
+vendor/lib/libqcodec2.so 0 0 0644
 vendor/lib/libqcmaputils.so 0 0 0644
 vendor/lib/libqcwrappercommon.so 0 0 0644
 vendor/lib/libqdMetaData.so 0 0 0644

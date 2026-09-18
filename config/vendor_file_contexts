@@ -202,6 +202,7 @@
 /vendor/bin/hw/vendor\.qti\.hardware\.perf@2\.2-service u:object_r:vendor_hal_perf_default_exec:s0
 /vendor/bin/hw/vendor\.qti\.hardware\.qseecom@1\.0-service u:object_r:vendor_hal_qseecom_default_exec:s0
 /vendor/bin/hw/vendor\.qti\.hardware\.tui_comm@1\.0-service-qti u:object_r:vendor_hal_tui_comm_qti_exec:s0
+/vendor/bin/hw/vendor\.qti\.media\.c2@1\.0-service u:object_r:mediacodec_exec:s0
 /vendor/bin/hw/vendor\.samsung\.hardware\.authfw@1\.0-service u:object_r:hal_authfw_default_exec:s0
 /vendor/bin/hw/vendor\.samsung\.hardware\.biometrics\.face@3\.0-service u:object_r:hal_face_default_exec:s0
 /vendor/bin/hw/vendor\.samsung\.hardware\.camera\.provider@4\.0-service u:object_r:hal_camera_default_exec:s0
@@ -737,6 +738,7 @@
 /vendor/etc/init/vendor\.samsung\.hardware\.tlc\.kg@1\.1-service\.rc u:object_r:vendor_configs_file:s0
 /vendor/etc/init/vendor\.samsung\.hardware\.tlc\.ucm@2\.0-service\.rc u:object_r:vendor_configs_file:s0
 /vendor/etc/init/vendor\.samsung\.hardware\.wifi@2\.0-service\.rc u:object_r:vendor_configs_file:s0
+/vendor/etc/init/vendor\.qti\.media\.c2@1\.0-service\.rc u:object_r:vendor_configs_file:s0
 /vendor/etc/init/vendor\.sensors\.sscrpcd\.rc u:object_r:vendor_configs_file:s0
 /vendor/etc/init/vendor_flash_recovery\.rc u:object_r:vendor_configs_file:s0
 /vendor/etc/init/vndservicemanager\.rc u:object_r:vendor_configs_file:s0
@@ -751,6 +753,8 @@
 /vendor/etc/lm/GameOptimizationFeature\.xml u:object_r:vendor_configs_file:s0
 /vendor/etc/lowi\.conf u:object_r:vendor_configs_file:s0
 /vendor/etc/media_codecs\.xml u:object_r:vendor_configs_file:s0
+/vendor/etc/media_codecs_c2\.xml u:object_r:vendor_configs_file:s0
+/vendor/etc/media_codecs_performance_c2\.xml u:object_r:vendor_configs_file:s0
 /vendor/etc/media_codecs_c2_sec\.xml u:object_r:vendor_configs_file:s0
 /vendor/etc/media_codecs_c2_sec_ape\.xml u:object_r:vendor_configs_file:s0
 /vendor/etc/media_codecs_c2_sec_qcp\.xml u:object_r:vendor_configs_file:s0
@@ -875,6 +879,8 @@
 /vendor/etc/sec_config u:object_r:vendor_configs_file:s0
 /vendor/etc/seccomp_policy u:object_r:vendor_configs_file:s0
 /vendor/etc/seccomp_policy(/.*)? u:object_r:vendor_configs_file:s0
+/vendor/etc/seccomp_policy/codec2\.vendor\.base\.policy u:object_r:vendor_configs_file:s0
+/vendor/etc/seccomp_policy/codec2\.vendor\.ext\.policy u:object_r:vendor_configs_file:s0
 /vendor/etc/seccomp_policy/mediacodec\.policy u:object_r:vendor_configs_file:s0
 /vendor/etc/seccomp_policy/mediaextractor_sec\.policy u:object_r:vendor_configs_file:s0
 /vendor/etc/seccomp_policy/samsung\.software\.media\.c2-base-policy u:object_r:vendor_configs_file:s0
@@ -1483,6 +1489,7 @@
 /vendor/lib/libqcbor\.so u:object_r:vendor_file:s0
 /vendor/lib/libqcc_file_agent\.so u:object_r:vendor_file:s0
 /vendor/lib/libqcci_legacy\.so u:object_r:vendor_file:s0
+/vendor/lib/libqcodec2\.so u:object_r:vendor_file:s0
 /vendor/lib/libqcmaputils\.so u:object_r:vendor_file:s0
 /vendor/lib/libqcwrappercommon\.so u:object_r:vendor_file:s0
 /vendor/lib/libqdMetaData\.so u:object_r:same_process_hal_file:s0
